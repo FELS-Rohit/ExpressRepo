@@ -1,0 +1,22 @@
+[Bb]in
+[Oo]bj
+[Rr]elease
+[Dd]ebug
+[Pp]ackages
+*.bak
+*.manifest
+*.exe
+*.pdb
+*.cache
+*.suo
+*.orig
+*.user
+LastBuild.log
+.svn
+_ReSharper*
+.DS_Store
+[Dd]esigns
+*.dll
+desktop.ini
+.nupkg
+# Include dlls external libraries and NuGet packages directory
