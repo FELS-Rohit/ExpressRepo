@@ -19,4 +19,5 @@ _ReSharper*
 *.dll
 desktop.ini
 .nupkg
+*.nuspec
 # Include dlls external libraries and NuGet packages directory
