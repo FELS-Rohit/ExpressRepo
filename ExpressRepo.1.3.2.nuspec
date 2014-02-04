@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>ExpressRepo</id>
+        <version>1.3.2</version>
+        <title>Express Repo</title>
+        <authors>Tyler Brinks</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Simple and effective C# Generic Repository pattern implementation for Entity Framework 6 models.  Use of generics and async makes eliminates complexity without sacrificing features.</description>
+        <summary>Simple and effective C# Generic Repository pattern implementation with Async support for Entity Framework 6 models.</summary>
+        <tags>Repo Repository Express EF Entity Framework EntityFramework Async DB DBContext</tags>
+        <dependencies>
+            <dependency id="EntityFramework" version="6.0.1" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="content\Data\DataContext.cs.pp" target="content\Data\DataContext.cs.pp" />
+        <file src="content\Data\EntityRepository.cs.pp" target="content\Data\EntityRepository.cs.pp" />
+        <file src="content\Data\IDataContext.cs.pp" target="content\Data\IDataContext.cs.pp" />
+        <file src="content\Data\IEntity.cs.pp" target="content\Data\IEntity.cs.pp" />
+        <file src="content\Data\IRepositoryContainerBase.cs.pp" target="content\Data\IRepositoryContainerBase.cs.pp" />
+        <file src="content\Data\RepoExamples_Delete_When_Done.cs.pp" target="content\Data\RepoExamples_Delete_When_Done.cs.pp" />
+        <file src="content\Data\Repository.Generic.cs.pp" target="content\Data\Repository.Generic.cs.pp" />
+        <file src="content\Data\RepositoryContainerBase.cs.pp" target="content\Data\RepositoryContainerBase.cs.pp" />
+    </files>
+</package>
